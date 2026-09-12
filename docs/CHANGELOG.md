@@ -1,5 +1,13 @@
 # @tabler/docs
 
+## 1.6.0
+
+### Patch Changes
+
+- 86ac4f1: Fixed the unreadable "5" badge in the avatar status docs example by adding `text-gray-100`.
+- 6f96282: Fixed the "Card on a background pattern" docs example so the preview shows the `.bg-pattern-diagonal` background.
+- 127c56b: Fixed the empty gutter to the right of the navbar on non-scrolling pages by dropping `scrollbar-gutter: stable` from `html`.
+
 ## 1.5.1
 
 ### Patch Changes

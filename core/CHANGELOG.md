@@ -1,5 +1,17 @@
 # @tabler/core
 
+## 1.6.0
+
+### Minor Changes
+
+- c1786b5: Added `dialog::backdrop` styling so a native `<dialog>` uses the same backdrop as modals.
+
+### Patch Changes
+
+- 127c56b: Fixed the empty gutter to the right of the navbar on non-scrolling pages by dropping `scrollbar-gutter: stable` from `html`.
+- 64dd529: Fixed the `.form-selectgroup-label` icon-only margin applying to icons nested deeper inside the label.
+- c1786b5: Added `overscroll-behavior: contain` to `.modal`, `.modal-body`, `.offcanvas-body` and `.dropdown-menu-scrollable`.
+
 ## 1.5.1
 
 ### Patch Changes
